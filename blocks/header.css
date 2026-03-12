@@ -9,14 +9,14 @@
   height: 70px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header__logo {
     width: 254px;
     height: 66px;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 320px) {
   .header__logo {
     max-width: 188px;
     height: 52px;
