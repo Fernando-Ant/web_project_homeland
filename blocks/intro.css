@@ -1,7 +1,12 @@
 
 .intro{
- padding: 0 148px;
-width: 830px;
+ display: flex;
+  flex-direction: column;
+  margin: 0 auto auto 0;
+  padding-top: 92px;
+  padding-left: 148px;
+  max-width: 830px;
+
 }
 
 .intro__title{
