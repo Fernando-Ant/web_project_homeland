@@ -1,0 +1,13 @@
+.photogrid{
+display: grid;
+gap: 16px;
+width: 100%;
+max-width: 1184px;
+  margin: 118px auto 92px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+.photogrid_item{
+    width: 100%;
+    object-position: center;
+}
