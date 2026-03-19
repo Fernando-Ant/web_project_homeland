@@ -6,3 +6,17 @@
   width: 100%;
   max-width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    min-height: 1659px;
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    min-height: 1550px;
+    min-width: 320px;
+  }
+}

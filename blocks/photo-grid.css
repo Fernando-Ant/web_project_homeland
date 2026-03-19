@@ -7,7 +7,33 @@ max-width: 1184px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 }
 
-.photogrid_item{
+.photogrid__item{
     width: 100%;
     object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .photogrid {
+    max-width: 720px;
+    grid-auto-rows: 264px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 24px;
+    margin-top: 24px;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photogrid {
+    max-width: 288px;
+    grid-auto-rows: 216px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 8px;
+    padding: 0 16px;
+    margin: 0 0 16px;
+  }
+
+  .photogrid__item {
+    border-radius: 2px;
+  }
 }
