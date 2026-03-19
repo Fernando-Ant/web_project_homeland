@@ -36,4 +36,4 @@ projeto homeland
 
 ## Status do projeto
 
-em desenvolvimento
+finalizado
