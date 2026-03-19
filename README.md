@@ -16,12 +16,15 @@ projeto homeland
 - intro.css
 - lead.css
 - page.css
+- photo-grid.css
+- places.css
 - images/
 - index.css
 - vendor/
 - normalize.css
 - index.html
 - README.md
+- favicom.ico
 - .editorconfig
 - .gitignore
 - .prettierignore
