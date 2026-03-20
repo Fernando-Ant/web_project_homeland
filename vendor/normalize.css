@@ -20,8 +20,13 @@ html {
  * Remova a margem em todos os navegadores.
  */
 
+* {
+   box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+  margin: 0;  
+  
 }
 
 /**

@@ -109,7 +109,7 @@ text-align: left;
       "image"
       "content"
       "button";
-    column-gap: 0;
+    column-gap: 0; 
     row-gap: 32px;
   }
 
@@ -150,9 +150,8 @@ text-align: left;
 @media screen and (max-width: 320px) {
 
 
-  .places {
-    padding-inline: 16px;
-  }
+
+    
 
   .places__item {
     width: 95%;
