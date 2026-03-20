@@ -17,6 +17,6 @@
 @media screen and (max-width: 320px) {
   .page {
     min-height: 1550px;
-    min-width: 100%;
+    min-width: 320px;
   }
 }
